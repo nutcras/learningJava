@@ -1,11 +1,9 @@
-package oop.Polymorphism.first;
+package oop.poly.first;
 
-public class Cars extends MoveMent {
-  @Override
+public class Cars extends MoveTo {
+  // อันนี้คือ polymorphism
   public void Move() {
     System.out.println("ไปหน้าหลังได้");
-    super.Move();
-    // ติดตรงนี้
   }
 
   public void start() {

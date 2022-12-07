@@ -1,6 +1,7 @@
-package oop.Polymorphism.first;
+package oop.poly.first;
 
-public class MoveMent {
+public class MoveTo {
+
   public void Move() {
     System.out.println("ขยับจากที่เดิม");
   }
