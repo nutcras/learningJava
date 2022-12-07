@@ -39,7 +39,6 @@ public class Calculator {
         break;
     }
     System.out.println(" = " + total);
-
   }
 
   public static void main(String[] args) {
@@ -57,7 +56,6 @@ public class Calculator {
       i++;
     }
     showOutPut(meterElc, typeCal);
-    // calculateElc(meterElc[0], meterElc[1]);
   }
 
 }
