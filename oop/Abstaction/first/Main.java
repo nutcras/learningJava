@@ -13,6 +13,10 @@ public class Main {
         SeniorEmp Em1 = new SeniorEmp();
         System.out.println("ก่อนset");
         showEmp(Em1);
+        Em1.hello();
+
+        JuniorEmp Em2 = new JuniorEmp();
+        Em2.hello();
 
         Em1.setSenior("53", "nazree", "awaekechi", 3000);
         System.out.println("หลังset");

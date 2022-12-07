@@ -10,4 +10,12 @@ public abstract class Employee {
     Employee() {
         salary = 5000;
     }
+
+    void hello() {
+        System.out.println("hello " + getComputer());
+    }
+
+    // abstract void hi();
+
+    abstract String getComputer();
 }

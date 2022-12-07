@@ -6,14 +6,14 @@ public class Main {
     human.Move();
     System.out.println("**************");
 
-    MoveTo Toyota = new Cars();
-    Toyota.Move();
+    MoveTo toyota = new Cars();
+    toyota.Move();
     // Toyota.start();
     // ตรงนี้คือเรียกใช้ polymorphism
 
     System.out.println("**************");
-    Cars Benz = new Cars();
-    Benz.Move();
-    Benz.start();
+    Cars benz = new Cars();
+    benz.Move();
+    benz.start();
   }
 }

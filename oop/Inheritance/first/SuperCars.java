@@ -10,4 +10,12 @@ public class SuperCars extends Cars {
     this.hp = highSpeed;
   }
 
+  // public void setCars(String brand, String model, String colors, double price)
+  // {
+  // this.model = model;
+  // this.colors = colors;
+  // this.price = price;
+  // this.brand = brand;
+  // }
+
 }

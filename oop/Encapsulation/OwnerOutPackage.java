@@ -9,9 +9,11 @@ public class OwnerOutPackage {
         System.out.println(Mom.Pi_Public);
         // System.out.println(Mom.Pi_Protected);
         // System.out.println(Mom.Pi_Private);
+        // System.out.println(Mom.Pi_default);
 
         // print method
         Mom.showTextPublic();
+        // Mom.showTextStatic();
         // Mom.showTextProtected();
         // Mom.showTextPrivate();
     }
